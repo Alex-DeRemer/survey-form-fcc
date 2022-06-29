@@ -2,7 +2,7 @@ body {
     font-size: 22px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 36px, 24px;
-    background-image: url('/images/bg-img.jpg')/* no-repeat center center fixed*/;
+    background-image: url('./images/bg-img.jpg')/* no-repeat center center fixed*/;
     background-size: cover;
 }
 
