@@ -1,0 +1,59 @@
+body {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 36px, 24px;
+    background-image: url('../images/bg-img.jpg')/* no-repeat center center fixed*/;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    background-color: rgba(235, 230, 236, 0.788);
+    border-radius: 25px;
+    padding: 15px;
+    color: black;
+}
+
+#description {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(235, 230, 236, 0.788);
+    border-radius: 25px;
+    padding: 5px;
+    color: black;
+}
+
+form {
+    color: black;
+    font-size: 16px;
+    margin: 36px, 50px;
+    padding: 40px, 54px;
+    background-color: rgba(235, 230, 236, 0.788);
+    border-radius: 25px;
+    text-align: center;
+}
+
+.form-group {
+    padding: 5px;
+}
+
+.sub-heading {
+    padding: 5px, 0;
+}
+
+.short-text {
+    font-size: 12px;
+    font-style: italic;
+}
+
+button {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    form {
+      font-size: 12px;
+    }
+  }
